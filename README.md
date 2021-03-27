@@ -134,6 +134,22 @@
 6. Update `js/config.js`
     * set `api.invokeUrl` to `invoke URL` from last step
     * commit and push
+## 4 Cost Analysis
+1. AWS Amplify Pricing
+    * $0.01 per build minutes
+    * $0.023 per GB stored per month
+    * $0.15 per GB served
+2. AWS Cognito Pricing
+    * 50,000 free monthly active user
+3. AWS DynamoDB Pricing
+    * 25GB free, $0.25 GB-month extra
+    * $1.25 per million read request unit
+    * $0.25 per million write request unit
+4. AWS Lambda Pricing
+    * 1M free request per month, $0.20 per million requests extra
+    * 400,000 GB-seconds per month, $1.6667 per 100,000 GB-seconds
+5. AWS APi Gateway Pricing
+    * $3.50 per million requests 
 
     
 
